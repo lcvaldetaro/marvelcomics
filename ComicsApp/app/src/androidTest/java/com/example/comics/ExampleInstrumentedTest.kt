@@ -1,4 +1,4 @@
-package com.example.comicsactivity
+package com.example.comics
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

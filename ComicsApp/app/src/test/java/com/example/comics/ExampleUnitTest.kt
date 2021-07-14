@@ -1,4 +1,4 @@
-package com.example.comicsactivity
+package com.example.comics
 
 import org.junit.Test
 
