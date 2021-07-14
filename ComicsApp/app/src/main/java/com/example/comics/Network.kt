@@ -283,6 +283,7 @@ class Network {
                     break
                 }
                 catch (e: Exception) {
+                    Log.e(TAG, "Exception", e)
                     if (retry == 0) {
                         httpResponse.responseCode = -1
                         break
@@ -319,7 +320,8 @@ class Network {
 
                     setRequestProperty("User-Agent", DEFAULT_AGENT + AGENT_SUFFIX)
 
-                    Log.d(TAG+SUBTAG, "URL : $url")
+                    Log.d(TAG+SUBTAG, "URL = $url")
+
                     if (responseCode == 200)
                         Log.d(TAG+SUBTAG, "Response Code : $responseCode")
                     else
