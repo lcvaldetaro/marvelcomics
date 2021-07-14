@@ -1,6 +1,6 @@
 package com.example.comics
 import android.util.Log
-import com.cacau.slotCarsApp.models.ComicDataWrapper
+import com.example.comics.models.ComicDataWrapper
 import com.google.gson.Gson
 import java.math.BigInteger
 import java.security.MessageDigest

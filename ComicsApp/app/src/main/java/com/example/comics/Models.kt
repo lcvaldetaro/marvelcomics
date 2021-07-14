@@ -1,4 +1,4 @@
-package com.cacau.slotCarsApp.models
+package com.example.comics.models
 
 data class ComicDataWrapper (val code : Int?, val status : String?, val copyright: String?, val attributionText : String?,
                              val attributionHTML : String? , val data : ComicDataContainer? , val etag: String?)
